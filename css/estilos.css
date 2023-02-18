@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+}
+
+/* Fuente y color de fondo */
+body {
+    font-family: Arial;
+    background-color: orange;
+}
+
+/* Eliminar el subrayado de los enlaces */
+a {
+    text-decoration: none;
+}
+
+/* Distribución del espacio entre los divs */
+#fila1, #fila2 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#principal {
+    width: 40%;
+}
+
+#info {
+    width: 60%;
+    margin-top: 85px;
+    font-size: 20px;
+}
+
+#exp, #hab {
+    width: 50%;
+    font-size: 20px;
+}
+
+#info-lista {
+    margin-top: 100px;
+}
